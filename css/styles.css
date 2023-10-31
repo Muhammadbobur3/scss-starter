@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #010101;
+  color: #ffffff;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */
