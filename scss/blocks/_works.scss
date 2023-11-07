@@ -21,7 +21,7 @@
     &-item {
       width: 100%;
       max-width: 330px;
-      background: #3B3B3B; 
+      background-color: #3B3B3B; 
       border-radius: 20px;
       padding: 10px 30px 30px 30px;
       text-align: center;
@@ -39,6 +39,12 @@
         width: 100%;
         max-width: 250px;
       }
+    }
+    &-item:hover {
+      background-color: #a86bf8 ; 
+    }
+    &-item:active {
+      background-color: #7b7584 ; 
     }
   }
 }
